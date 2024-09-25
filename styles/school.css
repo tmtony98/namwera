@@ -1,0 +1,162 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffff;
+}
+
+.donate-btn {
+    background-color: #F05A26;
+    border-radius: 50px;
+    color: white;
+    width: 178px;
+    height: 45px;
+    border: none;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.hero-section {
+    display: flex;
+
+}
+
+.hero-section {
+    width: 100vw;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assests/school/Asset\ 7@4x.png");
+    height: 70vh;
+    width: auto;
+}
+
+.text-section {
+    text-align: left;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    width: 40%;
+    color: white;
+}
+
+.text-section h1 {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-section {
+        text-align: left;
+        align-items: center;
+        height: 100%;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        width: 70%;
+        color: white;
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    .text-section h1 {
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .text-section {
+        text-align: left;
+        align-items: center;
+        height: 100%;
+        position: absolute;
+        top: 250px;
+        left: 40px;
+        width: 50%;
+        color: white;
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    .text-section h1 {
+        margin-bottom: 25px;
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    .text-section p {
+        line-height: 30px;
+        font-size: 16px;
+    }
+}
+
+
+.yt-section h1 {
+    font-size: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: #666766;
+    width: 70%;
+
+}
+.yt-section img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.yt-section-para p{
+    color: #666766;
+    font-size: 16px;
+    width: 80%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .yt-section h1 {
+        font-size: 18px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 90%;
+        color: #666766;
+        line-height: 25px;
+
+
+    }
+    .yt-section-para p{
+        color: #666766;
+        font-size: 12px;
+        width: 80%;
+        text-align: left;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .yt-section h1 {
+       
+        font-size: 35px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        color: #666766;
+        width: 70%;
+    
+
+    }
+
+}
+
+
+/* .how-help {
+    height: 100vh;
+    background-image: url("../assests/school/Asset\ 8@4x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+} */
