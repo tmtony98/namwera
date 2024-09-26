@@ -76,7 +76,15 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-
+    .donate-btn {
+        background-color: #F05A26;
+        border-radius: 50px;
+        color: white;
+        width: 130px;
+        height: 45px;
+        border: none;
+        font-size: 14px;
+    }
     .text-section {
         text-align: left;
         align-items: center;
