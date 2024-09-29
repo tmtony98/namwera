@@ -1,3 +1,10 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ffff;
+    font-family: ;
+}
+
 .donate-btn {
     background-color: #F05A26;
     border-radius: 50px;
@@ -44,6 +51,24 @@
     margin-bottom: 20px;
 }
 
+.more-btn {
+    color: white;
+    border-style: none;
+    border-radius: 25px;
+    background-color: #f68863;
+    height: 40px;
+    width: 130px;
+}
+
+.learn-btn {
+    background-color: none;
+    color: #F05A26;
+    border: 1px solid #F05A26;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+}
+
 .bg-image {
     width: 80%;
     height: 105%;
@@ -58,28 +83,119 @@
     height: auto;
 }
 
-.mission-div h1 {
+.about-heading {
+    width: 60%;
     color: #F05A26;
-    font-size: 52px;
-    margin-top: 50px;
+    font-weight: 700;
+}
+
+.school-row {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+
+}
+
+.school-img {
+    width: 100%;
+    height: auto;
+}
+
+.school-h1 {
+    color: rgb(209, 205, 205);
+    font-size: 35px;
+    width: 80%;
     margin-bottom: 25px;
-    margin-left: -25px;
+}
+
+.school-btn {
+    background-color: #F05A26;
+    border-radius: 50px;
+    color: white;
+    width: 160px;
+    height: 45px;
+    border: none;
+}
+
+.school-text {
+    margin-left: 55px;
+}
+
+.xplore-btn {
+    background-color: #F05A26;
+    border-radius: 50px;
+    color: white;
+    width: 160px;
+    height: 45px;
+    border: none;
 
 }
 
-.mission-div ul li {
-    list-style: none;
-    margin-bottom: 15px;
-    font-size: 16px;
-}
-
-.arrow-right {
-    font-size: 20px;
+.community-heading h1 {
+    font-size: 45px;
+    width: 100%;
     color: #F05A26;
-    font-weight: 1000;
+}
+
+.community-text {
+    margin-left: 55px
+}
+
+.community-para {
+    font-size: 16px;
+    width: 80%;
+    color: #000000;
+}
+
+.community-img img {
+    width: 85%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 55px;
 }
 
 
+
+
+
+.gallery-img-col img {
+    width: 80%;
+    height: auto;
+    /* text-align: left; */
+
+}
+
+.gallery-section h1 {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 52px;
+    text-align: center;
+}
+
+.gallery-btn button {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    border: 1px solid black;
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    color: #000000;
+
+}
+
+.gallery-text {
+    color: #3e3e3e;
+    width: 80%;
+}
+
+.gallery-text h2 {
+    font-size: 26px;
+    text-align: left !important;
+}
+
+
+/* footer-css */
 
 .footer {
     width: 100%;
@@ -147,7 +263,7 @@
     .text-section {
         text-align: left;
         align-items: center;
-        height: 70%;
+        height: 100%;
         position: absolute;
         top: 100px;
         left: 40px;
@@ -177,16 +293,35 @@
         height: auto;
     }
 
-    .footer img {
+    .school-h1 {
+        font-size: 20px;
         width: 100%;
-        height: auto;
-        margin-left: 100px;
-        margin-top: 15px;
-
     }
 
+    .school-h2 {
+        font-size: 18px;
+    }
 
-    /* footer ccss */
+    .school-btn {
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+    .school-text{
+        margin-left: 10px;
+    }
+    .community-text {
+        margin-left: 15px
+    }
+    .community-text p{
+        font-size: 12px;
+    }
+    .xplore-btn{
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    
+    }
     .footer-row {
         background-color: #333333;
         height: 150px;
@@ -219,38 +354,11 @@
         font-size: 20px;
 
     }
-
-
-    .mission-div h1 {
-        color: #F05A26;
-        font-size: 32px;
-        margin-top: 110px;
-        margin-bottom: 25px;
-        margin-left: -25px;
-
-    }
-
-    .mission-div ul li {
-        list-style: none;
-        margin-bottom: 15px;
-        font-size: 12px;
-    }
-
-    .arrow-right {
-        font-size: 20px;
-        color: #F05A26;
-        font-weight: 1000;
-    }
-    .arrow-right{
-        font-size: 15px;
-        color: #F05A26;
-        font-weight: 800;
-    }
-
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+
     .text-section {
         text-align: left;
         align-items: center;
@@ -274,21 +382,4 @@
         line-height: 30px;
         font-size: 16px;
     }
-
-    .mission-div h1 {
-        color: #F05A26;
-        font-size: 45px;
-        margin-top: 180px;
-        margin-bottom: 25px;
-        margin-left: -25px;
-
-    }
-
-    .mission-div ul li {
-        list-style: none;
-        margin-bottom: 15px;
-        font-size: 14px;
-        line-height: 15px;
-    }
-
 }
