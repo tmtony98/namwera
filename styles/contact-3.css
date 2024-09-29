@@ -79,31 +79,33 @@
     font-size: 25px;
 }
 
-.future-section h1 {
-    font-size: 55px;
-    color: #F05A26;
-    margin-top: 30px;
+
+
+.action-btn {
+    background-color: #F05A26;
+    border-radius: 50px;
+    color: white;
+    width: 160px;
+    height: 45px;
+    border: none;
 }
 
-.sub-heading {
-    opacity: .6;
-    ;
+.story p{
+    font-size: 16px;
+}
+
+.about-imgs{
+    display: flex;
+  justify-content: center;
+}
+.about-imgs img{
+    width: 50%;
+    height: auto;
+    max-height: 450px;
 }
 
 
 @media only screen and (max-width: 768px) {
-
-    .future-section h1 {
-        font-size: 25px;
-        color: #F05A26;
-        margin-top: 30px;
-    }
-
-    .future-section p {
-        font-size: 12px;
-        line-height: 19px;
-    }
-
     .donate-btn {
         background-color: #F05A26;
         border-radius: 50px;
@@ -183,7 +185,11 @@
         font-size: 20px;
 
     }
+    .story p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
 
 }
-
-@media (min-width: 769px) and (max-width: 1024px) {}
