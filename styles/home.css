@@ -29,7 +29,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../assests/school/Asset\ 7@4x.png");
+    background-image: url("../assests/home/Screenshot\ 2024-09-30\ 113506.png");
     height: 70vh;
     width: auto;
 
@@ -55,7 +55,7 @@ body {
     color: white;
     border-style: none;
     border-radius: 25px;
-    background-color: #f68863;
+    background-color: #F05A26;
     height: 40px;
     width: 130px;
 }
@@ -90,9 +90,14 @@ body {
 }
 
 .school-row {
-    background-image: url();
+    color: white;
+    height: 65vh;
+    background-image: linear-gradient(rgba(64, 34, 17, 0.65), rgba(64, 34, 17, 0.65)), url(../assests/home/bg.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+
+
 
 }
 
@@ -102,7 +107,7 @@ body {
 }
 
 .school-h1 {
-    color: rgb(209, 205, 205);
+  color: white;
     font-size: 35px;
     width: 80%;
     margin-bottom: 25px;

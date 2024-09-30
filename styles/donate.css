@@ -47,7 +47,7 @@
     /* background-image: url("../assests/donate/Asset\ 1@4x.png"); */
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(56, 53, 52, 0.65), rgba(56, 53, 52, 0.65)), url(../assests/school/hero-img.png);
+    background-image: linear-gradient(rgba(56, 53, 52, 0.65), rgba(56, 53, 52, 0.65)), url(../assests/donate/Screenshot\ 2024-09-30\ 113623.png);
     z-index: -100;
 }
 
@@ -165,6 +165,25 @@
     margin-top: 10px;
     font-size: 25px;
 }
+
+
+.img2 img{
+    width:500px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px) {
     .hero-section {
@@ -298,11 +317,15 @@
         background-image: linear-gradient(rgba(56, 53, 52, 0.65), rgba(56, 53, 52, 0.65)), url(../assests/school/hero-img.png);
         z-index: -100;
     }
+    .img2 img{
+        width:800px;
+        height: auto;
+    }
     
     
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .donate-btn {
         background-color: #F05A26;
         border-radius: 50px;
@@ -311,7 +334,7 @@
         height: 45px;
         border: none;
         font-size: 14px;
-    }
+   }
 
     .text-section {
         text-align: left;
@@ -348,11 +371,14 @@
         width: auto;
     }
     .donate-section {
-        height: 120vh;
+        height: 110vh;
         /* background-image: url("../assests/donate/Asset\ 1@4x.png"); */
         background-position: center;
         background-size: cover;
         background-image: linear-gradient(rgba(56, 53, 52, 0.65), rgba(56, 53, 52, 0.65)), url(../assests/school/hero-img.png);
         z-index: -100;
+    }
+    .donate-now-btn {
+        margin-top: 50px;
     }
 }

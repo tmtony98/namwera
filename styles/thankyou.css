@@ -1,16 +1,32 @@
-.thankyou{
-    background-image: url();
+* {
+  padding: 0px;
+  margin: 0px;
 }
-.thankyou img{
-    width: 100%;
-    height: auto;
+
+
+
+.thankyou img {
+  width: 100%;
+  height: auto;
 }
+
 .social-icons {
-    font-size: 25px;
+  font-size: 25px;
+  z-index: inherit;
 }
+
+.thankyou {
+  height: 100vh;
+  /* background-image: url("../assests/donate/Asset\ 1@4x.png"); */
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(56, 53, 52, 0.65), rgba(56, 53, 52, 0.65)), url(../assests/thanku/Screenshot\ 2024-09-30\ 111109.png);
+  z-index: -100;
+}
+
 @media only screen and (max-width: 768px) {
-  .thankyou h1{
+  .thankyou h1 {
     font-size: 25px;
     text-align: center;
-  }  
+  }
 }

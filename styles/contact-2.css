@@ -90,7 +90,10 @@
     ;
 }
 
-
+.future-para {
+    font-size: 16px;
+    line-height: 27px;
+}
 @media only screen and (max-width: 768px) {
 
     .future-section h1 {
@@ -186,4 +189,6 @@
 
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {}
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}
